@@ -28,7 +28,7 @@ console.log(`${UmaString} Numeros 125 e outros numeros também`);
 
 UmaString = 'MiNuScUlAs'
 
-console.log(UmaString.match(/[a-z]/g)); // ele basicamente retorna para voce todas as letras minusculas no texto, o G no final e para trazer todas
+console.log(UmaString.match(/[a-z]/g)); // ele basicamente retorna para voce todas as letras que você indiciou na variavel, o G no final e para trazer todas
 
 console.log(UmaString.match(/[a-z]/));
 
@@ -58,4 +58,4 @@ console.log(UmaString.slice(49, UmaString.length - 2));
 
 console.log(UmaString.split(' ')); // ele vai dividir o conteudo da variavel aonde a espaço
 
-console.log(UmaString.split(' ', 2)); // também da para limitar a quantidade de vezes que ele da um split 
+console.log(UmaString.split(' ', 2)); // também da para limitar a quantidade de vezes que ele da um split    
