@@ -12,7 +12,7 @@ function saudar (nome) { // os parametros são nada mais, nada menos que variave
     console.log(`Olá ${nome}, Bom dia !!`);
 } // observação esta função feita aqui não retorna nada
 
-saudar("Thiago");
+saudar("Thiago"); // o nome da informação que você passa para o parametro é argumento, então estou passando o argumento Thiago para o parametro nome
 saudar("Weslay");
 saudar("Jefferson"); // .... ele pode ser usado quantas vezes você quiser dando varios parametros diferentes
 
