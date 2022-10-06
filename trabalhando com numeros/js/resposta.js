@@ -5,9 +5,9 @@ const nomeTitulo = document.getElementById('numero-titulo');
 const texto = document.getElementById('texto');
 
 nomeTitulo.innerHTML = `O seu número é <strong>${numero}</strong>`;
-
+ // a raiz quadrada também pode ser usada com **
 texto.innerHTML = `
-    <p>A raiz quadrada é <strong>${Math.sqrt(numero)}</strong></p>
+    <p>A raiz quadrada é <strong>${Math.sqrt(numero)}</strong></p> 
     <p>${numero} é inteiro : <strong>${Number.isInteger(numero)}</strong>
     <p>${numero} é NaN : <strong>${Number.isNaN(numero)}</strong>
     <p>Arredondado para baixo fica <strong>${Math.floor(numero)}</strong></p>
