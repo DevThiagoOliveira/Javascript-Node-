@@ -1,21 +1,19 @@
 # Javascript
 
 <h1>Learning javascript</h1>
-
 <p>Plus  Html</p>
-
 <table>
     <tr>
-        <label>Ordem de Acompanhamento</label><br>
-        <td>Ferramentas de debug</td><br>
-        <td>Variaveis</td><br>
-        <td>Constantes</td><br>
-        <td>Dados Primitivos</td><br>
-        <td>Documento HTML</td><br>
-        <td>Funções</td><br>
-        <td>Objetos</td><br>
-        <td>Trabalhando com Numeros</td><br>
-        <td>Trabalhando com String</td><br>
-        <td>Trabalhando com Array</td><br>
+        <label>Ordem de Acompanhamento</label>
+        <td>Ferramentas de debug</td>
+        <td>Variaveis</td>
+        <td>Constantes</td>
+        <td>Dados Primitivos</td>
+        <td>Documento HTML</td>
+        <td>Funções</td>
+        <td>Objetos</td>
+        <td>Trabalhando com Numeros</td>
+        <td>Trabalhando com String</td>
+        <td>Trabalhando com Array</td>
     </tr>
 </table>
