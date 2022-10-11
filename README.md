@@ -4,11 +4,9 @@
 
 <p>Plus  Html</p>
 
-<table border="1">
+<table>
     <tr>
         <label>Ordem de Acompanhamento</label><br>
-    </tr>
-    <tr>
         <td>Ferramentas de debug</td><br>
         <td>Variaveis</td><br>
         <td>Constantes</td><br>
