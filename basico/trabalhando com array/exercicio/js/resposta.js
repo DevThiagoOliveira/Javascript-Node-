@@ -24,7 +24,7 @@ function classe() {
             altura: altura.value,
         });
 
-        resultado.innerHTML += `
+        resultado.innerHTML = `
             <p>Seu nome é ${nome.value} ${sobrenome.value}</p>
             <p>Você pesa ${peso.value}</p>
             <p>Sua altura é ${altura.value}</p>
