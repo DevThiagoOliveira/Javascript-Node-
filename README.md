@@ -1,8 +1,6 @@
-# Javascript
 
-<h1>Learning javascript</h1>
-
-<p>Plus  Html</p>
+# Learning javascript
+<h3>Plus  Html</h3>
 
 <table>
     <tr>
