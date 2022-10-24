@@ -6,7 +6,7 @@
 
 <table>
     <tr>
-        <label>Ordem de Acompanhamento</label>
+        <label>Ordem de Acompanhamento</label><br>
         <td>Ferramentas de debug</td>  
     </tr>
     <tr>

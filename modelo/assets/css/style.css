@@ -1,0 +1,68 @@
+:root {
+    --primery-color: rgb(43, 80, 45);
+    --primery-color-white: rgb(59, 124, 62);
+    --primery-color-dark: rgb(22, 48, 23);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: var(--primery-color);
+
+}
+
+main h1 {
+    width: 0px auto;
+}
+
+.container {
+    background-color: white;
+    margin: 100px auto;
+    max-width: 640px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+}
+
+form input {
+    font-size: 17px;
+    height: 35px;
+    padding: 0px 12px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primery-color);
+}
+
+form button {
+    border: none;
+    background-color: var(--primery-color);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px auto;
+    max-width: 500px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: var(--primery-color-dark);
+}
+
+form button:active {
+    background-color: var(--primery-color-white);
+    color: black;
+}
