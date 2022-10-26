@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="../../../modelo/assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+</head>
+<body>
+    <main class="container">
+
+        <h1 class="titulo">Tabela IMC</h1><br>
+        
+        <div class="box-container">
+            <div>
+                <h3>IMC</h3><br>
+                Menos de que 18,5<br>
+                Entre 18,5 e 24,9<br>
+                Entre 25 e 29,9<br>
+                Entre 30 e 34,9<br>
+                Entre 35 e 39,9<br>
+                Mais do que 40<br> 
+                
+            </div>
+            <div>
+                <h3>Resultado</h3><br>
+                Abaixo do peso<br>
+                Peso normal<br>
+                Sobrepeso<br>
+                Obesidade grau 1<br>
+                Obesidade grau 2<br>
+                Obesidade grau 3<br>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h2 class="titulo">Calcule o seu IMC</h2>
+            
+            <!-- 
+                fazer com que a pessoa coloque o peso e altura é quando ela enviar mostrar em qual resultado ela está
+                mostrar em qualquer canto da tela. Opcional fazer com que ele aceite somente pesos de pessoas maximo e 
+                minimo, também que aceite somente numeros.
+             -->
+
+           <form action="" id="form">
+                <label for="">Peso:</label>
+                <input type="text" id="peso">
+                <label for="">Altura:</label>
+                <input type="text" id="altura">
+                <button type="submit">Enviar</button>
+                <div id="resultado"></div>
+            </form> 
+        </div>
+        
+        
+    </main>
+
+    <script src="js/resposta.js"></script>
+</body>
+</html>

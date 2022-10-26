@@ -1,7 +1,7 @@
 :root {
-    --primery-color: rgb(43, 80, 45);
-    --primery-color-white: rgb(59, 124, 62);
-    --primery-color-dark: rgb(22, 48, 23);
+    --primery-color: rgb(17, 105, 128);
+    --primery-color-white: rgb(18, 125, 151);
+    --primery-color-dark: rgb(5, 54, 66);
 }
 
 * {
@@ -22,12 +22,29 @@ main h1 {
     width: 0px auto;
 }
 
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
 .container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     margin: 100px auto;
     max-width: 640px;
     padding: 20px;
     border-radius: 20px;
+}
+
+form {
+    padding: 20px;
 }
 
 form input, form label, form button {
@@ -39,10 +56,27 @@ form input {
     font-size: 17px;
     height: 35px;
     padding: 0px 12px;
+    text-align: center;
 }
 
 form input:focus {
     outline: 1px solid var(--primery-color);
+}
+
+.result-sucess {
+    background-color: rgb(0, 255, 106);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+.result-danger {
+    background-color: rgb(255, 66, 66);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold
 }
 
 form button {
