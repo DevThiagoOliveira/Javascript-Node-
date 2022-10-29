@@ -5,4 +5,10 @@
 */
 const data = new Date();
 
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
 console.log(data.toString());
