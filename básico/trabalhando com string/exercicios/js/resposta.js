@@ -12,7 +12,6 @@ window.document.write(`seu nome é ${nome}\n`); // caso não esteja usando node
 document.body.innerHTML += `Seu nome é ${nome} <br />`; // este e o mais recomendavel você usar para ele escrever dentro do Body
 */
 
-
 document.body.innerHTML += `Seu nome é ${nome} <br />`;
 document.body.innerHTML += `Tem ${nome.length} caracteres <br />`;
 document.body.innerHTML += `Segunda letra do seu nome ${nome[1]} <br />`;
