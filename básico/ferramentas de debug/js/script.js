@@ -1,6 +1,6 @@
 console.log('teste');
 
-alert('Alerta'); // apenas um alerta
+alert('asdadsdadadadaddadd'); // apenas um alerta
 
 confirm('Deseja fechar a aba ?'); // aba confirmação
 
