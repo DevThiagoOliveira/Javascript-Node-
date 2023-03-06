@@ -38,3 +38,43 @@ const pessoaDiferente = {
 }
 
 pessoaDiferente.fala();
+
+// Atribuição via desestruturação
+
+const serHumano = { // para criar objetos de informações variaveis pode pode setar desta maneira aonde você cria um variavel, constante, etc e abre chaves e chama outras variaveis com dados
+    // objetos são patricamente arrays, mas com variaveis que tem informações dentro
+    nome: 'Thiago', 
+    sobrenome: 'Augusto',
+    idade: '22',
+    sexo: 'masculino',
+    endereco: {
+        rua: 'Leopoudina',
+        numero: '1000',
+        bairro: 'Antonieta'
+    }
+}
+
+const { nome, sobrenome, idade , cep = 'não atribuido'} = serHumano;
+
+console.log(nome, sobrenome, idade, cep);
+
+// também da para mudar o nome da sua variavel caso queira
+
+const { nome: teste = ''} = serHumano;
+
+console.log(teste); // visto que o retorno foi "Thiago" pois o valor que está atribuido dentro da variavel é "Thiago", caso não tenha nenhum valor ele retorna ""
+
+// ou também da para acessar um objeto dentro de outro objeto como o endereço
+
+const { endereco: { rua = 'Av:. Brasil', numero: n = 00}, endereco } = serHumano; //so para mostrar que da para atribuir valores padrões dentro do objeto do objeto e mudar o nome da variavel
+
+console.log(rua, n);
+
+//mas não quer dizer que não possa usar o objeto completo
+console.log(endereco);
+
+// o REST também funciona
+
+const {nome: name, ...resto} = serHumano;
+
+console.log(resto);
