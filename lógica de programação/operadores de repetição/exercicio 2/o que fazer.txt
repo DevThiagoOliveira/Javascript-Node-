@@ -1,0 +1,9 @@
+peguei a cor do fundo de um arquivo HTML e coloque como a cor do fundo de de todos os elementos desta tag somente usando JavaScript
+
+<div class="paragrafos">
+    <p> Lorem ipsum dolor, </p>
+    <p> sit amet consectetur adipisicing elit. Expedita, </p>
+    <p> sint! Aperiam asperiores dicta, dolor quisquam labore </p>
+    <p> inventore voluptatum aut dolore debitis facilis sunt? Quis </p>
+    <p> fugiat culpa sequi sapiente ipsa dolorum </p>
+</div>

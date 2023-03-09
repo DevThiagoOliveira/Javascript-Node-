@@ -6,3 +6,5 @@ const elemento = [
     {tag: 'footer', texto: 'Frase 3'},
     {tag: 'section', texto: 'Frase 4'}
 ];
+
+#Bonus colocar a cor da letra em branco
