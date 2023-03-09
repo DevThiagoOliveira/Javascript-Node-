@@ -1,0 +1,7 @@
+faça com que o usuario escreva o seu nome completo, 
+coloca a quantidade de caracteres do nome dele,
+a segunda letra do nome, 
+qual o primeiro indice que aparece a letra A no nome e qual o ultimo, 
+As 3 ultimas letras,
+As palavras do nome, 
+o nome com letra maiuscula e com minuscula e as letras minusculas e maiusculas.
