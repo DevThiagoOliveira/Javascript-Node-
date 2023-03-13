@@ -15,4 +15,14 @@ console.log('MiliSec', data.getMilliseconds()); // pega milesimos de segundos
 console.log('Dia da Semana', data.getDay()); // pega o dia da semana
 console.log(data.toString()); // pega a data em string
 
-console.log(Data.now()); // pega o horario atual em milesimos de segundos desde o marco 0
+console.log(`\n-----------------------------------\n`);
+
+// data.toLocaleDateString('pt-BR', {
+//   dateStyle: 'short',
+//   hour: '2-digit',
+//   minute: '2-digit',
+//   second: '2-digit',
+//   hour12: false
+// })
+
+// console.log(data);
