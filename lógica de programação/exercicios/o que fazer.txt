@@ -1,0 +1,12 @@
+1ª - Escreva uma função que recebe 2 numeros e retorne o maior deles
+
+2ª - Escreva uma função que chamada ePaisagem que recebe dois argumentos, largura e altura de uma imagem (number).
+    returna true se a imagem estiver no modo paisagem.
+
+3° - Escreva uma função que recebe um número e retorne o seguinte:
+    número é divisível por 3 retorne Fizz
+    número é divisível por 5 retorne Buzz
+    número é divisível por 3 e 5 retorne FizzBuzz
+    número NÃO é divisível por 3 e 5 retorne o proprio número
+    checar se o número é realmente um número retorne o valor
+    use a função com números de 0 a 100
