@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(70, 70, 70);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    padding: 5em;
+    color: white;
+}
+
+
+.container h1 {
+    padding-top: 3em;
+    margin: 0 auto
+}
+
+.container .cronometro {
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 10mm;
+}
+
+.container .bottons {
+    margin: 0 auto;
+}
+
+.container button {
+    padding: 1em;
+    border-radius: 2em;
+    background-color: white;
+}
+
+.container button:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.container button:active {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,3 @@
+Com o metodo setInterval e setTimeout faça um cronometro aonde tenha a função de iniciar, então ele conta de 00:00:00 e vai até 23:59:59
+a função de pausar, então ele pausa o timer e o texto fica em vermelho, ao clicar em iniciar ele tem que voltar de onde parou com a cor que estava.
+E a função de zerar.

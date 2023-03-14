@@ -59,3 +59,25 @@ Exemplo
 
     pronto agora eu tenho uma variavel que contem a cor do fundo do body
 */
+
+//----------------------------------------------------------------------
+
+/*
+
+    Para capturar o evento de click de um formulario ou de um bottão você pode colocar 
+    
+    const botaoFormulario = document.querySelector('.botao') 
+
+    botaoFormulario.addEventListener('submit'); no case de um formulario que você queira mandar algum dado
+
+    no caso de um botão seria
+
+    botaoFormulario.addEventListener('click', function (event) {
+        
+        ae aqui você pode fazer de tudo
+
+        como colocar um alerta caso clicar no botão
+        alert()
+
+    });
+*/
