@@ -17,12 +17,18 @@ console.log(data.toString()); // pega a data em string
 
 console.log(`\n-----------------------------------\n`);
 
-// data.toLocaleDateString('pt-BR', {
-//   dateStyle: 'short',
-//   hour: '2-digit',
-//   minute: '2-digit',
-//   second: '2-digit',
-//   hour12: false
-// })
+/* 
 
-// console.log(data);
+data.toLocaleString();
+data.toLocaleDateString();
+data.toLicaleTimeString();
+
+data.toLocaleDateString('pt-BR', {
+  dateStyle: 'short',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
+  hour12: false
+})
+
+ console.log(data); */

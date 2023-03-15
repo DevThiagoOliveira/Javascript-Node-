@@ -81,3 +81,23 @@ Exemplo
 
     });
 */
+
+//----------------------------------------------------------------------
+
+/*
+
+    document.addEventListener('click', function (event) {
+        event.target // ele vai informar aonde você esta clicando na pagina então para não tem uns 20 eventListener você pode usar ele
+
+        // e com
+        event.target.classList.contains(); // ele executara caso você click no elemento em que ele estiver informado exemplo
+
+        let element = event.taget;
+
+        if(element.classList.contains('botaoSubmit')) {
+            console.log('você deu submit no seu formulario');
+        } 
+        
+        // então caso você click no submit do formulario ele manda essa mensagem no console, caso não ele não faz nada
+    })
+*/
