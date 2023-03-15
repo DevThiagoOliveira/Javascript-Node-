@@ -10,3 +10,17 @@
     número NÃO é divisível por 3 e 5 retorne o proprio número
     checar se o número é realmente um número retorne o valor
     use a função com números de 0 a 100
+
+4º - Com o metodo setInterval e setTimeout faça um cronometro aonde tenha a função de iniciar, então ele conta de 00:00:00 e vai até 23:59:59
+a função de pausar, então ele pausa o timer e o texto fica em vermelho, ao clicar em iniciar ele tem que voltar de onde parou com a cor que estava.
+E a função de zerar.
+
+##Bonus
+
+5º - criar uma lista de tarefas 
+<ul>
+    <li></li>
+</ul>
+
+aonde você adiciona elementos via input text, salva elementos no navegador, e deleta os elementos salvos no navegador, importante os dados
+mesmo atualizando a pagina continuarem aparecendo, so excluindo ao clica no botão de apagar

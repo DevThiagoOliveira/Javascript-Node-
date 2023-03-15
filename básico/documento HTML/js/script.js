@@ -4,6 +4,10 @@ const titulo = 'Titulo deste tuto'
 const cabecalho = document.getElementById('cabeca'); // para pegar o id do HTML e trata ele no JavaScript
 
 cabecalho.innerHTML = titulo; // aqui eu estou fazendo o hmtl mudar via JS
+// cabecalho.InnerText // ele pega o Texto dentro daquela tag
+// cabecalho.InnerText.replace('Titulo deste tuto', 'Tutorial Sincero') // você pode mudar o valor do texto de uma variavel dando replace no innerText dele
+// cabecalho.InnerText.trim() // remove espaços extras depois ou antes do valor
+
 
 // ----------------------
 
@@ -80,6 +84,22 @@ Exemplo
         alert()
 
     });
+
+    addEventListener('keypress', function() {}); // pega o botão que foi pressionado
+    addEventListener('keydown', function() {}); // pega o botão que foi pressionado ao manter a tecla
+    addEventListener('keyup', function() {}); // pega o botão que foi pressionado ao soltar a tecla
+    
+    addEventListener('keypress', function(event) {
+        event.keyCode // o código do tipo de botão que você clicou
+        botaoFormulario.focus(); // vai fazer o cursor ficar piscando dentro de uma area de texto
+        botaoFormulario.value; // pega o valor do seu tag html, também pode ser adicionado um valor
+    });
+
+    botaoFormulario.setAttribute('title', 'nomeParaQualquerAtributoClass,Id,title,....'); // o setAttribute você seta um atributo para a tag
+                                                                                          // você pode criar qualquer atributo para a classe.
+
+    botaoFormulario.parentElement // ele mostra o pai do element atual que no caso aqui é o form pois o botão está dentro do form no html
+    botaoFormulario.parentElement.remove() // remove() remove uma tag um elemento do html
 */
 
 //----------------------------------------------------------------------
@@ -101,3 +121,25 @@ Exemplo
         // então caso você click no submit do formulario ele manda essa mensagem no console, caso não ele não faz nada
     })
 */
+
+
+//----------------------------------------------------------------------
+
+/*
+
+    salvar dados no navegador sem bando de dados
+    primeiro transforme o seu dado em JSON
+    
+    const arrayComDados = [];
+
+    const dadoJSON = JSON.stringify(arrayComDados);
+
+    localStorage.setItem('nome', dadoJSON); ele so aceita string por isso você tem que transformar o seu tipo de dado em JSON
+
+    para recuperalas basta colocar
+
+    const dadosGetItem = localStorage.getItem('nomeDoStorageColocadoNoSetItem'); você recupara os dados salvos no navegador ae basta converter de novo no tip ode dado original no meu caso um array
+
+    const recuperarDadosOriginais = JSON.parse(dadosGetItem);
+
+ */
