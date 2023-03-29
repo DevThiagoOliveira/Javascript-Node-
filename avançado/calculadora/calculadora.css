@@ -1,0 +1,81 @@
+:root {
+    --primery-color: rgb(17, 105, 128);
+    --primery-color-white: rgb(18, 125, 151);
+    --primery-color-dark: rgb(5, 54, 66);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--primery-color);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin: 100px auto;
+    width: 30em;
+    padding: 2.6em;
+    border-radius: 20px;
+}
+
+.calculadora {
+    width: 24em;
+}
+
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    height: 2em;
+    text-align: right;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding-right: 12px;
+}
+
+.btn {
+    width: 100%;
+    height: 3em;
+    font-size: 1em;
+    font-weight: 550;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.calculadora table {
+    background-color: rgb(168, 168, 168);
+    border-radius: 17px;
+}
+
+.border-left {
+    border-end-start-radius: 17px;
+}
+
+.border-right {
+    border-end-end-radius: 16px;
+    background-color: rgb(253, 216, 50);
+}
+
+.border-right:hover {
+    background-color: rgb(204, 174, 38);
+}
