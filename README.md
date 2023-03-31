@@ -37,6 +37,6 @@
         <td>Trabalhando com Array</td>
     </tr>
     <tr>
-        <td>Cmming Soon</td>
+        <td>Comming Soon</td>
     </tr>
 </table>
