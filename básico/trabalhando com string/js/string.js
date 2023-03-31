@@ -45,7 +45,7 @@ console.log(UmaString.replace('Chingamento', '#')); // ele troca a primeira a pr
 console.log(UmaString.replace(/m/g, '#')); // se quiser substituir N caracteres de um conjunto de palavras
 
 
-// Tamanho e cortar e dividir
+// Tamanho, cortar e dividir
 
 UmaString = "Uma frase nova para saber o tamanho dela em caracteres";
 
@@ -58,4 +58,6 @@ console.log(UmaString.slice(49, UmaString.length - 2));
 
 console.log(UmaString.split(' ')); // ele vai dividir o conteudo da variavel aonde a espaço
 
-console.log(UmaString.split(' ', 2)); // também da para limitar a quantidade de vezes que ele da um split    
+console.log(UmaString.split(' ', 2)); // também da para limitar a quantidade de vezes que ele da um split
+
+console.log(UmaString.endsWith('s')); // ele retorna true ou false se a string termina com a informação que você passou por parametro
