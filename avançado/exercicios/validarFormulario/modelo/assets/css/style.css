@@ -1,0 +1,119 @@
+:root {
+    --primery-color: rgb(17, 105, 128);
+    --primery-color-white: rgb(18, 125, 151);
+    --primery-color-dark: rgb(5, 54, 66);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: var(--primery-color);
+
+}
+
+main h1 {
+    width: 0px auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin: 100px auto;
+    max-width: 640px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+label {
+    padding-top: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+}
+
+form input {
+    font-size: 17px;
+    height: 35px;
+    padding: 0px 12px;
+    text-align: center;
+}
+
+form input:focus {
+    outline: 1px solid var(--primery-color);
+}
+
+.result-sucess {
+    background-color: rgb(0, 255, 106);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+.result-danger {
+    background-color: rgb(255, 66, 66);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+form button {
+    border: none;
+    background-color: var(--primery-color);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px auto;
+    max-width: 500px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: var(--primery-color-dark);
+}
+
+form button:active {
+    background-color: var(--primery-color-white);
+    color: black;
+}
+
+.warning {
+    padding-top: 7px;
+    padding-left: 4em;
+}
+
+.text-error {
+    font-size: 12px;
+    color: rgb(214, 11, 11);
+    padding-left: .6em;
+    padding: 5px;
+}

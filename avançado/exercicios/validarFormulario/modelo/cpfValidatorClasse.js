@@ -8,21 +8,6 @@ class CPF {
             value: cpf.replace(/\D+/g, ''),
         });
     }
-
-    get cpf() {
-        return `CPF: ${this.cpfOnly}`;
-    }
-
-    set cpf(cpf) {
-        if(typeof cpf !== 'string') return;
-
-        let cpfLimpo = cpf.replace(/\D+/g, '');
-
-        if(CPF.isSequence(cpfLimpo)) return;
-        if(cpfLimpo.length !== 11) return;
-        
-        this.cpfOnly = cpfLimpo;
-    }
     
     validator() {
         if(typeof this.cpfOnly !== 'string') return;
@@ -36,7 +21,7 @@ class CPF {
 
         const cpfInteiro = cfpParcial + digit01 + digit02;
 
-        return cpfInteiro === this.cpfOnly ? 'CPF Válido' : 'CPF Inválido';
+        return cpfInteiro === this.cpfOnly;
     }
 
     static checkDigit(cpfParcial) {
@@ -59,8 +44,3 @@ class CPF {
     }
 
 }
-
-const cpf = new CPF('705.484.450-52');
-// cpf.cpf = '111.222.333-45';
-console.log(cpf.cpf);
-console.log(cpf.validator());

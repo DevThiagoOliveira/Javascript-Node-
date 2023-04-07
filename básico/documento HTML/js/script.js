@@ -143,3 +143,30 @@ Exemplo
     const recuperarDadosOriginais = JSON.parse(dadosGetItem);
 
  */
+
+// --------------------------------------------------------------------
+
+/**
+ * caso você queira adicionar alguma mensagem ou algum element depois ou antes de uma tag basta colocar 
+ * insertAdjacentElement(where: InsertPosition, element: Element)
+ * tag.insertAdjacentElement('before | beforeend | beforestart | after | afterend | afterstart', tag);
+ * 
+ * Exemp:.
+ * 
+ *  div = createElementById('div');
+ *  input = createElementById('input');
+ * 
+ * div.innerText = 'Uma mensagem depois do input'
+ * 
+ * input.insertAdjacentElement('afterend', div);
+ * 
+ * ----------------------------------------------------------------------------------------
+ * 
+ * caso você queira pegar o nome de uma tag antes ou depois da tag que você esta mexendo também da
+ * 
+ * previousElementSibling;
+ *                           previousElementSibling
+ * const mensagemDiv = input.nextElementSibling.innetText; // então ele armazena a mensagem do elemento que vem depois ou antes dele
+ *                                                            no meu caso que quero pegar a mensagem da div, e a div vem depois do meu elemento
+ * 
+ */
