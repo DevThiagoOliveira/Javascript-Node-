@@ -160,6 +160,18 @@ Exemplo
  * 
  * input.insertAdjacentElement('afterend', div);
  * 
+ * se quiser pegar o atributo de uma pode usar o getAttribute('nome do atributo'); tag igual o Href de uma tag a
+ * 
+ * document.addEvenetListener('click', (elmenet) => {
+ *     const elementTarget = element.target;
+ *     const tag = elementTarget.tagName.toLowerCase();
+ *     
+ *     if(elementTag === 'a') {
+ *          const href = elementTarget.getAttribute('href');
+ *          console.log(href); // aqui você vai ter o href que você colocou na tag <a href="www.google.com"></a>
+ *     }
+ * });
+ * 
  * ----------------------------------------------------------------------------------------
  * 
  * caso você queira pegar o nome de uma tag antes ou depois da tag que você esta mexendo também da

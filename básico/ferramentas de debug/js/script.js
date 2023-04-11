@@ -1,4 +1,6 @@
 console.log('teste');
+console.warn('warning');
+console.error('Erro');
 
 alert('asdadsdadadadaddadd'); // apenas um alerta
 
