@@ -101,21 +101,28 @@ form button:active {
     color: black;
 }
 
-.CPF {
-    text-align: center;
-    padding: .9em;
+.box-container {
+    display: inline;
 }
 
-.cpf-gerado {
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-    padding: 5px;
+.senha-gerada {
+    font-size: 2em;
+    margin: 1em;
+    flex-wrap: wrap;
+    max-width: 17em;
+    color: var(--primery-color);
 }
 
-.button {
-    padding: .6em;
-    border-radius: .5em;
+button {
     margin: 2em;
+    margin-left: 20em;
 }
 
+input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+}
+
+input[type="number"] {
+    width: 4.5em;
+}

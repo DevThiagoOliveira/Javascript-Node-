@@ -15,7 +15,7 @@ class ValidarFormulario {
         const formValido = this.camposValidos();
         const senhasValidas = this.senhasValidas();
 
-        if(formValidation && senhasValidas) {
+        if(formValido && senhasValidas) {
             alert('Formulario Enviado');
             this.formulario.submit();
         }
