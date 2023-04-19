@@ -5,6 +5,7 @@
  * 65, 90 Letras Maiusculas
  * 97, 122 Letas Minusculas
  */
+import 'regenerator-runtime/runtime';
 import GeradorSenha from './modules/GeradorSenha';
 import './assets/css/style.css';
 
