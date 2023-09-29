@@ -76,7 +76,7 @@ main();
  * ela tem 3 estados
  * 
  *  Pending -> pendente // ainda está processando para retornar o valor
- *  Fulfilled -> resolvida // e quando elá completou o processadomento e caiu no resolve e já esta com o valor
+ *  Fullfilled -> resolvida // e quando elá completou o processadomento e caiu no resolve e já esta com o valor
  *  Reject -> rejeitada // quando o valor foi rejeitado, caiu no reject
  * 
  *  Com isso o await ele espera o termino da execução e retorna para você os valores    

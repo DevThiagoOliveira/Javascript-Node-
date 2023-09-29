@@ -33,7 +33,7 @@
 document.addEventListener('click', (element) => {
     const elementTaget = element.target;
     const tag = elementTaget.tagName.toLowerCase();
-
+    
     if(tag === 'a') {
         element.preventDefault();
         carregaPagina(elementTaget);

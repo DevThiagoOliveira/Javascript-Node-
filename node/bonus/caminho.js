@@ -10,4 +10,4 @@ const path = require('path');
 
 const exp = require(path.resolve(__dirname, '..', 'import export', 'export'));
 
-console.log(exp);
+console.log(path);

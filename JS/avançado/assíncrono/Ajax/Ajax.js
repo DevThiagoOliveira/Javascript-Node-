@@ -80,7 +80,7 @@ document.addEventListener('click', (element) => {
 function carregaPagina(element) {
     const href = element.getAttribute('href');
     ajax({
-        method: 'GET',
+        method: 'GET' | 'POST' | 'DELETE' | 'PUT',
         url: href,
         sucess(response) {
             carregaResultado(response);
