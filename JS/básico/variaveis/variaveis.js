@@ -1,9 +1,14 @@
 let varavel1 = "string";
-let variavel2 = 2;
-let variavel3 = 15;
 
+let calculadora;
 
-let resultado = (variavel2 + variavel3);
+calculadora = valor1 + valor2;
+
+console.log("soma: ", calculadora);
+
+console.log("sub: ", calculadora);
+
+console.log("multi: ", calculadora);
 
 /*
 
@@ -14,6 +19,6 @@ com o var pode criar N variaveis com o mesmo nome, mas eles vão sobrepondo uma 
 
 */
 
-console.log(typeof resultado);
+// console.log(typeof resultado);
 
 //podese usar typeof para descobrir o tipo de dado

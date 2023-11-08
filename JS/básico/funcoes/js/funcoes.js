@@ -12,9 +12,9 @@ function saudar (nome) { // os parametros são nada mais, nada menos que variave
     console.log(`Olá ${nome}, Bom dia !!`);
 } // observação esta função feita aqui não retorna nada
 
-saudar("Thiago"); // o nome da informação que você passa para o parametro é argumento, então estou passando o argumento Thiago para o parametro nome
-saudar("Weslay");
-saudar("Jefferson"); // .... ele pode ser usado quantas vezes você quiser dando varios parametros diferentes
+// saudar("Thiago"); // o nome da informação que você passa para o parametro é argumento, então estou passando o argumento Thiago para o parametro nome
+// saudar("Weslay");
+// saudar("Jefferson"); // .... ele pode ser usado quantas vezes você quiser dando varios parametros diferentes
 
 
 // agora está função aqui retorna um valor, obs:. os nomes por referencia que você passa podem ser iguas pode que ele pertence somente à aquela função
@@ -22,24 +22,36 @@ function retorna (nome) {
     return `Seu nome é ${nome}`;
 } 
 
-retorna("Thiago");
+// retorna("Thiago");
 
 
-function soma (x, y) { // você também pode tipar o tipo de dado que você quer que venha, igual aqui eu quero somente numeros
-    const resultado = (x + y);
+function soma (valor1, valor2) { // você também pode tipar o tipo de dado que você quer que venha, igual aqui eu quero somente numeros
+    const resultado = (valor1 + valor2);
     return console.log(resultado); // o código é somente executado até o return, tudo abaixo disso não é executado mais
     console.log('não vai ser executado');
 }
 
-soma(15, 80);
+// soma(15, 40);
 
 // também da para fazer a famosa Arrow function aonde você tem
 
-const nome = (parametro) => {
+let nome = parametro => {
+    let variavel1;
     return console.log(parametro);
 }
+
+// nome("artur");
 
 //aonde você pode simplificar ela para ficar deste modo
 
 const outro = maisUm => console.log(maisUm); // isto também é uma função somente simplificada
 //quando a somente uma referencia você pode tirar os parenteses (), também pode tirar o return quando a somente uma informação e as chaves {}
+
+function soma(x = 10, y = 10) {
+
+    let resultado = x + y;
+
+    return console.log(resultado);
+}
+
+soma(20, 20);

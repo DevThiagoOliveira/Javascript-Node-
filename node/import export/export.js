@@ -11,11 +11,12 @@ const falaNome = () => {
     return nome;
 };
 
-this.exportado = nome;
+this.exportado = 'Foi exportado com o this';
 
 module.exports.nome = nome;
-module.exports.falaNome = falaNome;
 
-exports.pessoaNome = nome;
+exports.falaNome = falaNome;
+
+exports.pessoaNome = nome; // você pode exportar uma variavel não existente também.
 
 //caso você usa o module.exports = {} ele cancela todos os exports anteriores

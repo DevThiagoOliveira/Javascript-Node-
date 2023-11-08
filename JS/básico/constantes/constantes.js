@@ -10,5 +10,6 @@ variaveis para fazer varias coisas soma, etc...
 let resultado = ID * ID2;
 
 console.log(typeof resultado);
+console.log(ID);
 
 //podese usar typeof para descobrir o tipo de dado

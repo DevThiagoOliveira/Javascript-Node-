@@ -1,0 +1,47 @@
+__________________________________________________________________________________________________________________________________________
+|                                                                                                                                        |
+| Iniciar o node:                                                                                                                        |
+|    npm init ( opcional: você pode colocar o -y para ele aceitar todos as obrigações que o dev tenha que aceitar)                       |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Instalar um pacote:                                                                                                                    |
+|    npm install [ nome do pacote ]                                                                                                      |
+|                                                                                                                                        |
+|    (O ^ em um pacote exemplo:. "express" : "^4.14.1" indica que quando sair uma atualização oficial ele sera instalado automaticamente,|
+|     para retirar isso caso você queira uma versão especifica basta colocar o -E no final que ele ira tirar o ^ da versão do pacote. )  |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Instalar uma versão especifica de um pacote:                                                                                           |
+|    npm install [ pacote ]@[ versão ]                                                                                                   |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Atualizar um pacote:                                                                                                                   |
+|    npm update                                                                                                                          |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Mudar para a parte de desenvolvimento o pacote:                                                                                        |
+|    npm install [ pacote ] --save-dev                                                                                                   |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Mudar para o parte de produção o pacote:                                                                                               |
+|    npm install [ pacote ] --save-prod                                                                                                  |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Desinstalar um pacote:                                                                                                                 |
+|    npm uninstall [ pacote ]                                                                                                             |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Mexer com profundidade exemplo ver os pacotes que instalei:                                                                            |
+|    npm ls --depth=0                                                                                                                    |
+|                                                                                                                                        |
+|________________________________________________________________________________________________________________________________________|
+|                                                                                                                                        |
+| Ver quais pacotes estão desatualizados:                                                                                                |
+|    npm outdated                                                                                                                        |

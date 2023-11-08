@@ -66,7 +66,7 @@ console.log(teste); // visto que o retorno foi "Thiago" pois o valor que está a
 
 // ou também da para acessar um objeto dentro de outro objeto como o endereço
 
-const { endereco: { rua = 'Av:. Brasil', numero: n = 00}, endereco } = serHumano; //so para mostrar que da para atribuir valores padrões dentro do objeto do objeto e mudar o nome da variavel
+const { endereco: { rua = 'Av:. Brasil', numero: n = 0}, endereco } = serHumano; //so para mostrar que da para atribuir valores padrões dentro do objeto do objeto e mudar o nome da variavel
 
 console.log(rua, n);
 

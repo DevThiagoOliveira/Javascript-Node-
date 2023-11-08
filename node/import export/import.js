@@ -7,5 +7,4 @@
 // const obj = require('./export'); // agora você tem todos os objetos ou funções exportados do seu arquivo
 const { nome, falaNome } = require('./export'); // ou você pode importar somente o que vai usar fazendo desde modo
 
-console.log(falaNome());
-
+console.log(nome);
