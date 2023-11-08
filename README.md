@@ -10,16 +10,13 @@
         <td>Ferramentas de debug</td>  
     </tr>
     <tr>
+        <td>Dados Primitivos</td>
+    </tr>
+    <tr>
         <td>Variaveis</td>
     </tr>
     <tr>
         <td>Constantes</td>
-    </tr>
-    <tr>
-        <td>Dados Primitivos</td>
-    </tr>
-    <tr>
-        <td>Documento HTML</td>
     </tr>
     <tr>
         <td>Funções</td>
